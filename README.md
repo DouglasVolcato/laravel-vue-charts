@@ -1,6 +1,6 @@
 # Gáficos Laravel/Vue - Douglas Volcato
 
-![Diagram of the App](diagrams\home-screen-print.png)
+![App print](diagrams/home-screen-print.png)
 
 ## Funcionalidade
 A funcionalidade principal deste projeto é mostrar gráficos na página, utilizando os dados obtidos da API do governo.
