@@ -26,8 +26,10 @@ RUN composer install && \
     npm install && \
     npm run build
 
-# Expondo a porta 8000
-EXPOSE 8000
+# Expondo a porta da variável de ambiente APP_PORT
+EXPOSE ${PORT}
 
 # Comando para rodar a aplicação
-CMD ["php", "artisan", "serve", "--host=0.0.0.0", "--port=8000"]
+CMD ["php", "artisan", "serve", "--host=0.0.0.0", "--port=${PORT}"]
+
+
